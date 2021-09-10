@@ -1,0 +1,94 @@
+.card .container .row{
+    margin-top: 100px;
+    border-radius: 11px;
+    overflow: hidden;
+    border: none;
+    align-items: stretch;
+}
+.row>*{
+    padding: 0;
+}
+.card .card-content{
+    background-color: #1c1938;
+    color: white;
+    padding: 35px 45px 35px;
+    font-size: 20px;
+}
+.card .card-content .card__content__header h1{
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+@media (max-width:767px){
+    .card .card-content .card__content__header h1{
+        font-size: 30px;
+    }
+    .card .card-content{
+        font-size: 18px;
+    }
+}
+.card .card-content .card__content__header h1 span{
+    color: #9660be;
+}
+
+.card .card-content .card__content__brief p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    margin-bottom: 30px;
+    color: #7f7c94;
+}
+
+.card .card-content .card__content__info {
+    flex-wrap: wrap;
+    margin-top: 100px;
+    font-family: 'Inter', sans-serif;
+
+}
+.card .card-content .card__content__info p span{
+    display: block;
+}
+.card .card-content .card__content__info p span:first-child{
+    font-size: 25px;
+    font-weight: 700;
+}
+.card .card-content .card__content__info p span:last-child{
+    font-size: 15px;
+    font-weight: 300;
+    color: #7f7c94;
+}
+
+.card .card__img{
+    position: relative;
+}
+.card .card__img .overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background-color: hsl(277, 64%, 61%);
+    z-index: 2;
+    opacity: .7;
+}
+.card .card__img img{
+    width: 100%;
+    height: 100%;
+}
+.card .card__mob-img{
+    position: relative;
+}
+.card .card__mob-img .overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background-color: hsl(277, 64%, 61%);
+    z-index: 2;
+    opacity: .7;
+}
+.card .card__mob-img img{
+    width: 100%;
+    height: 100%;
+}
