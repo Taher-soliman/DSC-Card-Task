@@ -5,6 +5,11 @@
     border: none;
     align-items: stretch;
 }
+@media (max-width:575px){
+    .card .container {
+        max-width: 90%;
+    }
+}
 .row>*{
     padding: 0;
 }
